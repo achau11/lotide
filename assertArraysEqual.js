@@ -15,8 +15,7 @@ const assertArraysEqual = function (arr1, arr2) {
     console.log(`✅ Assertion Passed. Both Arrays are equal. ${arr1} === ${arr2}`);
   } else {
     console.log(`🛑 Assertion Failed. Both Arrays are not equal. ${arr1} === ${arr2}`);
-  }  
-  
+  }   
 }
 //Test cases:
 assertArraysEqual([1, 2, 3], [1, 2, 3]);
